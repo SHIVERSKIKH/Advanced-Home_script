@@ -74,7 +74,7 @@ const scheduleData = [
             updateButtons();
           }
         });
-        btnCancel.disabled = true; // initially disabled until sign up
+        btnCancel.disabled = true; 
         actionCell.appendChild(btnCancel);
         
         function updateButtons() {
